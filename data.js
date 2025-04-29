@@ -114,7 +114,8 @@ export const data = LandscapeSchema.make({
   },
   AuthIdentity: {
     Encryption: {
-      data: 'Built-in e2ee'
+      data: 'Yes',
+      comment: 'Built-in e2ee'
     },
     AuthenticationMethod: {
       data: ['Built-in']
