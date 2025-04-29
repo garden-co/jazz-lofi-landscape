@@ -9,6 +9,10 @@ export const data = LandscapeSchema.make({
   Website: 'https://jazz.tools',
   License: 'MIT',
   Deployment: ['Self-hosted', 'Hosted'],
+  GitHub: "https://github.com/garden-co/jazz",
+  GetStarted: "https://jazz.tools/docs",
+  InitialReleaseDate: new Date('2023-09-11'),
+  MaturityLevel: "Production-Ready",
   AppTarget: {
     Platform: {
       data: ['Browser', 'Node', 'iOS', 'Android'],
@@ -72,6 +76,7 @@ export const data = LandscapeSchema.make({
     OfflineWrites: {
       data: 'Full local conflict resolution'
     },
+    OptimisticUpdates: { data: 'Yes' },
     DataSize: {
       data: 'limited by RAM',
       comment: 'Soon limited only by disk.'
