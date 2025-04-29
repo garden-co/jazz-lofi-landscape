@@ -74,7 +74,7 @@ export const data = LandscapeSchema.make({
       data: 'Full Support'
     },
     OfflineWrites: {
-      data: 'Full local conflict resolution'
+      data: 'Local conflict resolution'
     },
     OptimisticUpdates: { data: 'Yes' },
     DataSize: {
