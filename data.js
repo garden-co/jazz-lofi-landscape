@@ -125,7 +125,8 @@ export const data = LandscapeSchema.make({
   },
   UIRelated: {
     RichTextEditing: {
-      data: 'Coming soon (incl. ProseMirror/TipTap/Lexical integration)'
+      data: 'Yes',
+      comment: "ProseMirror integration"
     },
     Components: {
       data: ['File upload', 'progressive image loading', 'multiplayer cursors']
