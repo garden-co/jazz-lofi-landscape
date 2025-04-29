@@ -5,6 +5,8 @@ export const data = LandscapeSchema.make({
   Version: 1,
   Id: 'jazz',
   Name: 'Jazz',
+  Description: 'Toolkit for backendless apps.',
+  Website: 'https://jazz.tools',
   License: 'MIT',
   Deployment: ['Self-hosted', 'Hosted'],
   AppTarget: {
